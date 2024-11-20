@@ -7,3 +7,8 @@ GROUP BY city
 ORDER BY AVG_MARKS ASC;
 
 
+-- Dessending
+select  city, AVG(marks) AS AVG_MARKS
+from student
+GROUP BY city
+ORDER BY AVG_MARKS DESC;
